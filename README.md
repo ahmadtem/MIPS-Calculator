@@ -3,4 +3,4 @@ Calculator implemented using MIPS Assembly Language. Allows for exponents, paren
 
 Replace the "exp" string with the expression that is to be evaluated.
 
-NOTE: Entry point is at "main" at line 450.
+NOTE: Entry point is "main" @ line 450.
