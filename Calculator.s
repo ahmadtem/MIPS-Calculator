@@ -447,7 +447,7 @@ eval_add2:
 	beq $0, $0, expnt_done		# ALWAYS branch to sum_done
 	add $0, $0, $0			# NOP
 
-main:	
+main:												# ENTRY POINT
 	add $s0, $0, $sp		# value of stack pointer preserved in s0
 	lui $t0, 0x1000			# address of starting location stored in t0
 	addi $t0, $t0, 11		# setting t0 to point to char '=' in the expression
