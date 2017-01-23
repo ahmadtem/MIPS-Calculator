@@ -2,3 +2,5 @@
 Calculator implemented using MIPS Assembly Language. Allows for exponents, parenthesis, multiplication, division, addition and subtraction. 
 
 Replace the "exp" string with the expression that is to be evaluated.
+
+NOTE: Entry point is at "main" at line 450.
